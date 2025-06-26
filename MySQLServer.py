@@ -1,7 +1,6 @@
 import mysql.connector
 from mysql.connector import Error
 
-# mydb = mysql.connector.connect(host='localhost', user='root', password='@Johnson1519')
 mydb = None
 try:
     mydb = mysql.connector.connect(
@@ -19,7 +18,7 @@ try:
 
 
 except mysql.connector.Error:
-    print(f"Error while connecting to MYSQL: {e}")
+    print(f"Error while connecting to MYSQL")
 
 finally:
     if  mydb and mydb.is_connected():
