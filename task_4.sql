@@ -12,4 +12,4 @@ FROM
     INFORMATION_SCHEMA.COLUMNS
 WHERE   
     TABLE_SCHEMA = 'alx_book_store'
-    AND TABLE_NAME IN ('Authors', 'Books', 'Customers', 'Orders', 'Order_Details');
+    AND TABLE_NAME = 'Books', 'Authors', 'Customers', 'Orders', 'Order_Details';
