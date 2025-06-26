@@ -4,7 +4,7 @@ USE alx_book_store
 
 CREATE TABLE Author(
     author_id INT PRIMARY KEY,
-    author_name VARCHAR(215) NOT NULL,
+    author_name VARCHAR(215) NOT NULL
 );
 
 
