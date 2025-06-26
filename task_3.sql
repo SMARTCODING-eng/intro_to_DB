@@ -1,3 +1,4 @@
-SELECT table_name
-FROM information_schema.tables
-WHERE table_type = 'BASE TABLE'
+-- SELECT table_name
+-- FROM information_schema.tables
+-- WHERE table_type = 'BASE TABLE'
+SHOW TABLES;
